@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/background">
+	<ImageButton android:id="@+id/newphoto" android:background="@drawable/newphoto"
+		android:layout_width="70px" android:layout_height="30px"
+		android:layout_x="45px" android:layout_y="50px">
+	</ImageButton>
+	<ImageButton android:id="@+id/history" android:background="@drawable/history"
+		android:layout_width="70px" android:layout_height="30px"
+		android:layout_x="165px" android:layout_y="150px">
+	</ImageButton>
+	<ImageButton android:id="@+id/help" android:background="@drawable/help"
+		android:layout_width="70px" android:layout_height="30px"
+		android:layout_x="265px" android:layout_y="95px">
+	</ImageButton>
+	<ImageButton android:id="@+id/exit" android:background="@drawable/exit"
+		android:layout_width="70px" android:layout_height="30px"
+		android:layout_x="365px" android:layout_y="180px">
+	</ImageButton>
+</AbsoluteLayout>
